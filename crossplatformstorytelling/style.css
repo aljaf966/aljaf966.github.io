@@ -1,0 +1,77 @@
+html, body {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: 'EB Garamond', serif;
+}
+
+h1 {
+  color: #A41010;
+  text-align: center;
+  font-family: 'Dorsa', sans-serif;
+  font-size: 500%;
+   letter-spacing: 4px;
+}
+
+h2 {
+  color: #A41010;
+  text-align: center;
+  }
+
+h3 {
+  text-align: center;
+}
+
+p {
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.button {
+  background-color: #A41010;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'EB Garamond', serif;
+  margin: 4px 2px;
+  cursor: pointer;
