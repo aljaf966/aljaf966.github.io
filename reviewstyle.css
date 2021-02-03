@@ -1,0 +1,29 @@
+body {
+  background-color: #E0B2AA;
+
+}
+
+ul {
+  list-style-type: square;
+}
+
+h3 {
+  font-family: 'Fredoka One', cursive;
+}
+
+span {
+  background-color: #f18973;
+}
+
+a:link {
+  color: #E0B96F;
+   text-decoration: none;
+}
+a:visited {
+  color: green;
+   text-decoration: none;
+}
+
+a:hover {
+  color: hotpink;
+}

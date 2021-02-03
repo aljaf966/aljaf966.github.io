@@ -3,3 +3,11 @@ html, body {
   color: #4F77AA;
   text-align: center;
 }
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+p {
+  font-family: 'Playfair Display', serif;
+}
