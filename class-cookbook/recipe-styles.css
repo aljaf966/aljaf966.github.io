@@ -1,0 +1,30 @@
+body {
+  background-color: #CCE0DF;
+}
+
+.lists {
+font-family: monospace;
+color: #332217;
+  line-height: 1.6;
+
+}
+
+.captions {
+  text-align: center;
+  font-family: monospace;
+  font-weight: bold;
+  color: #332217;
+}
+
+#headers1 {
+  text-align: center;
+  color: #FFD4B9;
+  text-shadow: 2px 2px #E09464;
+  font-weight: bold;
+  font-family:sans-serif;
+}
+
+#headers2 {
+ color: #E09464;
+ font-family:sans-serif;
+}
