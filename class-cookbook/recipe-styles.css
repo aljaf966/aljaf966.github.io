@@ -6,14 +6,15 @@ body {
 font-family: monospace;
 color: #332217;
   line-height: 1.6;
-
 }
 
 .captions {
   text-align: center;
   font-family: monospace;
   font-weight: bold;
-  color: #332217;
+  color: #FF9766;
+  font-style: italic;
+  font-size: 25px;
 }
 
 #headers1 {
@@ -22,9 +23,12 @@ color: #332217;
   text-shadow: 2px 2px #E09464;
   font-weight: bold;
   font-family:sans-serif;
+  font-size: 70px;
 }
 
 #headers2 {
- color: #E09464;
+  color: #FFD4B9;
+  text-shadow: 2px 2px #E09464;
+  font-size: 20px;
  font-family:sans-serif;
 }
