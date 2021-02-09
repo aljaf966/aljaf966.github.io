@@ -1,0 +1,116 @@
+
+
+html {
+  display: block;
+  margin: 10px;
+  background-color:#CFF5C6;
+}
+
+
+@font-face {
+    font-family: 'obviously_demosuper';
+    src: url('fonts/obviouslydemo-super-webfont.woff2') format('woff2'),
+         url('fonts/obviouslydemo-super-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'obviously_demowide';
+    src: url('fonts/obviouslydemo-wide-webfont.woff2') format('woff2'),
+         url('fonts/obviouslydemo-wide-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'obviously_demowide';
+    src: url('fonts/obviouslydemo-wide-webfont.woff2') format('woff2'),
+         url('fonts/obviouslydemo-wide-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'obviously_demosuper';
+    src: url('fonts/obviouslydemo-super-webfont.woff2') format('woff2'),
+         url('fonts/obviouslydemo-super-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+background-color: #03B9BB;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+letter-spacing: 2px;
+  font-family: 'obviously_demosuper';
+  font-stretch: semi-expanded;
+  color: #1D2E41;
+    letter-spacing: 3px;
+
+}
+
+
+h2 {
+  font-family: 'obviously_demowide';
+  text-align: center;
+  font-size: 20px;
+  font-stretch: condensed;
+  color: #1D4137;
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+    letter-spacing: 1px;
+}
+
+.myca {
+  background-color: #E8C6F5;
+      width: 400px;
+      padding: 20px;
+border-radius: 60%;
+      margin: 10px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+li {
+margin: 4px
+font-family: 'Lexend Mega', sans-serif;
+margin: 5px;
+  color: #662695;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Lexend Mega', sans-serif;
+  color: #662695;
+}
+
+a:hover {
+  color: #FEC0FE;
+
+
+}
