@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'BauerBodoni-Roman';
+    src: url('fonts/BauerBodoni-Roman.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+@font-face {
+    font-family: 'CliftonTrial-Regular';
+    src: url('fonts/CliftonTrial-Regular.otf') format('otf'),
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+        font-family: 'east-liberty-signature';
+        src: url('fonts/east-liberty-signature.otf') format('otf'),
+        font-weight: normal;
+        font-style: normal;
+}
+body {
+padding: 20px;
+background-color: #E3CBB3;
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+}
+
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid #0B2323; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .05em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .50s step-end infinite;
+    text-align: center;
+    font-family: "BauerBodoni-Roman";
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #0B2323; }
+}
+
+
+.chapters {
+  padding: 60px;
+  margin: auto;
+}
+h2 {
+  text-align: center;
+  font-family: "BauerBodoni-Roman";
+}
+h3 {
+text-align: center;
+  font-size: 30px;
+
+}
+
+a.one:link {color:#171512; text-decoration: none}
+a.one:visited {color:#171512;}
+a.one:hover {font-size:150%; font-family: "CliftonTrial-Regular" ; font-size: 30px;}
+
+a.two:link {color:#171512; text-decoration: none}
+a.two:visited {color:#171512;}
+a.two:hover {font-family: "east-liberty-signature"; font-size: 30px;}
