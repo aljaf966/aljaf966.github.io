@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'BauerBodoni-Roman';
+    src: url('project-2/fonts/BauerBodoni-Roman.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+
+@font-face {
+    font-family: 'Marion';
+    src: url('project-2/fonts/Marion-Regular.otf') format('otf'),
+        url('project-2/fonts/Marion-Bold') format('otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+      @font-face {
+          font-family: 'New Romantics';
+          src: url('project-2/fonts/NewRomantics.woff2') format('woff2'),
+              url('project-2/fonts/NewRomantics.woff') format('woff');
+          font-weight: normal;
+          font-style: normal;
+          font-display: swap;
+      }
+
+
+      @font-face {
+          font-family: 'OhnoBlazefaceDemo';
+          src: url('project-2/fonts/OhnoBlazeface.otf') format('otf');
+          font-weight: normal;
+          font-style: normal;
+          font-display: swap;
+      }
+      @font-face {
+          font-family: 'CliftonTrial-Regular';
+          src: url('project-2/fonts/CliftonTrial-Regular.otf') format('otf'),
+          font-weight: normal;
+          font-style: normal;
+        }
+
+body {
+padding: 4px;
+  padding-top: 4em;
+  display: flex;
+  justify-content: left;
+background-color: #AAAAAA;
+
+}
+
+.main {
+  margin-left: 132px; /* Same as the width of the sidenav */
+  font-size: 85px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid #0B2323; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .05em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .50s step-end infinite;
+    text-align: center;
+    font-family: "BauerBodoni-Roman";
+    font-size: 55px;
+    margin-left: 160px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+
+}
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #0B2323; }
+}
+
+
+ p {
+  font-size: 85px;
+  font-family: "marion";
+  text-align: left;
+  line-height: 1.0em;
+  letter-spacing: 5px;
+}
+
+h3 {
+  font-size: 70px;
+  font-family: "marion";
+
+}
+
+
+a.one:link {color:#171512; text-decoration: underline; font-size: 60px;}
+a.one:visited {color:#171512;}
+a.one:hover {font-size:150%; font-family: "New Romantics" ; font-size: 60px; color:#618520; letter-spacing: 13px;text-decoration: none;}
+
+
+.sidenav {
+  height: 115%;
+    width: 93px;
+    position: fixed;
+    z-index: 1;
+    top: -8px;
+    left: -4px;
+    background-color: #CFCAC9;
+    overflow-x: hidden;
+    padding-top: 151px;
+    line-height: 86px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 50px;
+  color: #000000;
+  display: block;
+  font-family: "Marion";
+}
+
+.sidenav a:hover {
+  color: #1E19CB;
+  font-family: "NewRomantics";
+}
+
+
+.spaces {
+  font-family: "New Romantics"; font-size: 90px; color: #AE2D6A;letter-spacing: 13px
+}
+
+.not {
+  font-family: "OhnoBlazefaceDemo"; font-weight: bold; text-decoration: underline;
+}
+.italic {
+  font-style: italic; font-family: "CliftonTrial-Regular"; font-size: 60px;
+}
+a.twolink {color:#0022E9; text-decoration: underline;font-family: "BauerBodoni-Roman"; font-size: 40px}
+a.two:visited {color:#0022E9;}
+a.two:hover {font-family: "BauerBodoni-Roman" ; font-size: 40px; color:#618520; letter-spacing: 13px;text-decoration: none;}
+
+
+//* #overlay {
+      position: fixed;
+      opacity: 40%;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 2;
+      cursor: pointer;
+      content:url("paper-texture.jpg");
+    }
