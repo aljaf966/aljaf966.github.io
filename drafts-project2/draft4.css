@@ -45,7 +45,8 @@ padding: 4px;
   padding-top: 4em;
   display: flex;
   justify-content: left;
-background-color: #AAAAAA;
+background-color: #ebebeb;
+background-image: url("https://www.transparenttextures.com/patterns/broken-noise.png");
 
 }
 
@@ -54,6 +55,13 @@ background-color: #AAAAAA;
   font-size: 85px; /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
+
+#chapter1 {
+  margin-left:26px; /* Same as the width of the sidenav */
+  font-size: 85px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
 
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -105,7 +113,26 @@ a.one:link {color:#171512; text-decoration: underline; font-size: 60px;}
 a.one:visited {color:#171512;}
 a.one:hover {font-size:150%; font-family: "New Romantics" ; font-size: 60px; color:#618520; letter-spacing: 13px;text-decoration: none;}
 
+.button {
+  font-family: "BauerBodoni-Roman";
+    color: #000000;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 49px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #CFCAC9;
 
+}
+
+.button:hover {
+  font-size:60px;
+  color:#618520;
+  font-family: "CliftonTrial-Regular";
+}
 .sidenav {
   height: 115%;
     width: 93px;

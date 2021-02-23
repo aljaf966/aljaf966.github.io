@@ -1,3 +1,4 @@
+/* FONT STYLES */
 @font-face {
     font-family: 'BauerBodoni-Roman';
     src: url('project-2/fonts/BauerBodoni-Roman.otf') format('otf');
@@ -40,13 +41,115 @@
           font-style: normal;
         }
 
+/* MEDIA STYLES */
+
+        @media only screen and (min-width: 480px) {
+
+          .typewriter h1 {
+            overflow: hidden; /* Ensures the content is not revealed until the animation */
+            border-right: .15em solid #0B2323; /* The typwriter cursor */
+            white-space: nowrap; /* Keeps the content on a single line */
+            margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+            letter-spacing: .05em; /* Adjust as needed */
+            animation:
+              typing 3.5s steps(40, end),
+              blink-caret .50s step-end infinite;
+              text-align: center;
+              font-family: "BauerBodoni-Roman";
+              font-size: 15px;
+              margin-left: 100px; /* Same as the width of the sidenav */
+              padding: 0px 10px;
+            }
+
+            .sidenav {
+              height: 115%;
+            width: 93px;
+            position: fixed;
+            z-index: 1;
+            top: -8px;
+            left: -4px;
+            background-color: #CFCAC9;
+            overflow-x: hidden;
+            padding-top: 151px;
+            line-height: 86px;
+            font-size: 20px;
+          }
+
+          p {
+           font-size: 26px;
+           font-family: "marion";
+           text-align: left;
+           line-height: 1.0em;
+           letter-spacing: 2px;
+         }
+
+         h3 {
+           font-size: 32px;
+           font-family: "marion";
+
+         }
+
+         body {
+         padding: 4px;
+           padding-top: 4em;}
+
+           #chapter1 {
+             margin-left:26px; /* Same as the width of the sidenav */
+             font-size:52px; /* Increased text to enable scrolling */
+             padding: 0px 10px;
+           }
+        }
+
+        @media only screen and (min-width: 768px) {
+          p {
+           font-size: 50px;
+           font-family: "marion";
+           text-align: left;
+           line-height: 1.0em;
+           letter-spacing: 5px;
+         }
+
+         h3 {
+           font-size:40px;
+           font-family: "marion";}
+
+  .sidenav {  height: 128%;
+    width: 122px;
+    position: fixed;
+    z-index: 1;
+    top: 1px;
+    left: -4px;
+    background-color: #CFCAC9;
+    overflow-x: hidden;
+    padding-top: 248px;
+    line-height: 139px;
+    font-size: 20px;  }
+
+    .button {
+    font-family: "BauerBodoni-Roman";
+    color: #000000;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 93px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #CFCAC9;
+  }
+}
+
+
+/* MAIN STYLES */
+
 body {
 padding: 4px;
   padding-top: 4em;
   display: flex;
   justify-content: left;
-background-color: #AAAAAA;
-
+background-color: #ebebeb;
+background-image: url("https://www.transparenttextures.com/patterns/broken-noise.png");
 
 }
 
@@ -55,6 +158,13 @@ background-color: #AAAAAA;
   font-size: 85px; /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
+
+#chapter1 {
+  margin-left:26px; /* Same as the width of the sidenav */
+  font-size: 85px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
 
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -72,24 +182,6 @@ background-color: #AAAAAA;
     padding: 0px 10px;
 
 }
-
-.hide {
-display: none;
-}
-
-a:hover+ .hide {
-display: block;
-}
-
-
-  p {
-     text-align: center;
-  font-family: 'marion',
-  width: 320px;
-  height: 320px;
-  margin: 0 auto;
-  font-size: 30px
-  }
 
 
 /* The typing effect */
@@ -119,12 +211,31 @@ h3 {
 
 }
 
-
+/* LINKS & BUTTON STYLES */
 a.one:link {color:#171512; text-decoration: underline; font-size: 60px;}
 a.one:visited {color:#171512;}
 a.one:hover {font-size:150%; font-family: "New Romantics" ; font-size: 60px; color:#618520; letter-spacing: 13px;text-decoration: none;}
 
+.button {
+  font-family: "BauerBodoni-Roman";
+    color: #000000;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 49px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #CFCAC9;
 
+}
+
+.button:hover {
+  font-size:60px;
+  color:#618520;
+  font-family: "CliftonTrial-Regular";
+}
 .sidenav {
   height: 115%;
     width: 93px;
