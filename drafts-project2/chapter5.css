@@ -42,8 +42,8 @@
         }
 
 /* MEDIA STYLES */
-
-        @media only screen and (min-width: 480px) {
+/*big screen*/
+        @media only screen and (min-width: 768px) {
 
           .typewriter h1 {
             overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -93,16 +93,17 @@
          padding: 4px;
            padding-top: 4em;}
 
-           #chapter1 {
+           #chapter4 {
              margin-left:26px; /* Same as the width of the sidenav */
              font-size:52px; /* Increased text to enable scrolling */
              padding: 0px 10px;
            }
         }
+/*small screen*/
+        @media only screen and (max-width: 480px) {
 
-        @media only screen and (min-width: 768px) {
           p {
-           font-size: 50px;
+           font-size: 12px;
            font-family: "marion";
            text-align: left;
            line-height: 1.0em;
@@ -110,9 +111,9 @@
          }
 
          h3 {
-           font-size:40px;
-           font-family: "marion";
-         }
+           font-size:20px;
+           font-family: "marion";}
+
 
   .sidenav {  height: 128%;
     width: 122px;
@@ -146,11 +147,11 @@
 
 body {
 padding: 4px;
-  padding-top: 4em;
+  padding-top: 2em;
   display: flex;
   justify-content: left;
-background-color: #ebebeb;
-background-image: url("https://www.transparenttextures.com/patterns/broken-noise.png");
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
 
 }
 
@@ -160,42 +161,31 @@ background-image: url("https://www.transparenttextures.com/patterns/broken-noise
   padding: 0px 10px;
 }
 
-#chapter1 {
+#chapter5 {
   margin-left:26px; /* Same as the width of the sidenav */
   font-size: 85px; /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
 
 
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .typewriter h1 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid #0B2323; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .05em; /* Adjust as needed */
-  animation:
-    typing 3.5s steps(40, end),
-    blink-caret .50s step-end infinite;
-    text-align: center;
-    font-family: "BauerBodoni-Roman";
-    font-size: 55px;
-    margin-left: 160px; /* Same as the width of the sidenav */
-    padding: 0px 10px;
-
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .05em;
+  text-align: center;
+  font-family: "BauerBodoni-Roman";
+  font-size: 22px;
+    color: #5C5C5C;
+  margin-right: inherit;
+padding: 0px 10px;
 }
 
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #0B2323; }
-}
 
 
  p {
@@ -204,20 +194,44 @@ background-image: url("https://www.transparenttextures.com/patterns/broken-noise
   text-align: left;
   line-height: 1.0em;
   letter-spacing: 5px;
+  font-weight: lighter;
+  color: #5C5C5C;
 }
 
 h3 {
-  font-size: 70px;
+  font-size: 50px;
   font-family: "marion";
+  color: #4C4C4C;
 
 }
 
 /* LINKS & BUTTON STYLES */
-a.one:link {color:#171512; text-decoration: underline; font-size: 60px;}
-a.one:visited {color:#171512;}
-a.one:hover {font-size:150%; font-family: "New Romantics" ; font-size: 60px; color:#618520; letter-spacing: 13px;text-decoration: none;}
+a.two:link {color:#171512; text-decoration: underline; font-size: 40px;}
+a.two:visited {color:#171512;}
+a.two:hover {font-family: "New Romantics" ; font-size: 40px; color:#618520; letter-spacing: 13px;text-decoration: none;}
 
-.button {
+a {
+  font-family: "marion";
+    color: #0012D4;
+    border: none;
+    padding: -5px 32px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 78px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+a:hover {
+  color: #0B00FF;
+  font-family: "New Romantics";
+  letter-spacing: 10px;
+    text-decoration: none;
+}
+
+.button2 {
   font-family: "BauerBodoni-Roman";
     color: #000000;
     border: none;
@@ -232,11 +246,54 @@ a.one:hover {font-size:150%; font-family: "New Romantics" ; font-size: 60px; col
 
 }
 
-.button:hover {
-  font-size:60px;
-  color:#618520;
-  font-family: "CliftonTrial-Regular";
+.button2:hover {
+  color: #0B00FF;
+  font-family: "New Romantics";
+  letter-spacing: 4px;
 }
+
+.button3 {
+  font-family: "BauerBodoni-Roman";
+    color: #000000;
+    border: none;
+  padding: 12px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 49px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #CFCAC9;;
+
+}
+
+.button3:hover {
+  color: #0B00FF;
+  font-family: "New Romantics";
+ letter-spacing: 4px;
+}
+
+.start {
+  font-family: "BauerBodoni-Roman";
+    color: #000000;
+    border: none;
+  padding: 12px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #CFCAC9;;
+
+}
+
+.start:hover {
+  color: #0B00FF;
+  font-family: "New Romantics";
+ letter-spacing: 4px;
+}
+
 .sidenav {
   height: 115%;
     width: 93px;
@@ -244,24 +301,30 @@ a.one:hover {font-size:150%; font-family: "New Romantics" ; font-size: 60px; col
     z-index: 1;
     top: -8px;
     left: -4px;
-    background-color: #CFCAC9;
+    background-color: #2B2B2B;
     overflow-x: hidden;
     padding-top: 151px;
     line-height: 86px;
+    color: #DEDEDE;
+    filter: drop-shadow(5px 5px 20px #535353);
 }
 
 .sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 50px;
-  color: #000000;
-  display: block;
-  font-family: "Marion";
+  padding: 3px 8px 0px 16px;
+    text-decoration: none;
+    font-size: 33px;
+    color: #000000;
+    display: block;
+    font-family: "Marion";
+    background-color: #2B2B2B;
+      color: #DEDEDE;
 }
 
 .sidenav a:hover {
-  color: #1E19CB;
+  color: #618520;
+  background-color: #2B2B2B;
   font-family: "NewRomantics";
+  letter-spacing: normal;
 }
 
 
@@ -272,10 +335,53 @@ a.one:hover {font-size:150%; font-family: "New Romantics" ; font-size: 60px; col
 .not {
   font-family: "OhnoBlazefaceDemo"; font-weight: bold; text-decoration: underline;
 }
-.italic {
+.emphasis {
   font-style: italic; font-family: "CliftonTrial-Regular"; font-size: 60px;
 }
-a.twolink {color:#0022E9; text-decoration: underline;font-family: "BauerBodoni-Roman"; font-size: 40px}
+
+.italic {
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.bold {
+font-size: 100px;
+
+
+}
+
+strong {
+  width: 197px;
+  height: 80px;
+border: 6px solid #373737;
+text-align: center;
+}
+
+.color1 {
+  color: #3E7797;
+}
+
+.skew {
+  transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+}
+
+.skew:hover {
+  transition: 0.70s;
+   -webkit-transition: 0.70s;
+   -moz-transition: 0.70s;
+   -ms-transition: 0.70s;
+   -o-transition: 0.70s;
+   -webkit-transform: rotate(180deg);
+   -moz-transform: rotate(180deg);
+   -o-transform: rotate(180deg);
+   -ms-transform: rotate(180deg);
+   transform: rotate(180deg);
+}
+a.twolink {color:#0022E9; text-decoration: underline;font-family: "BauerBodoni-Roman"; font-size: 40px; background-color: none;}
 a.two:visited {color:#0022E9;}
 a.two:hover {font-family: "BauerBodoni-Roman" ; font-size: 40px; color:#618520; letter-spacing: 13px;text-decoration: none;}
 

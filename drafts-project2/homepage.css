@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'BauerBodoni-Roman';
+    src: url('project-2/fonts/BauerBodoni-Roman.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+
+@font-face {
+    font-family: 'Marion';
+    src: url('project-2/fonts/Marion-Regular.otf') format('otf'),
+        url('project-2/fonts/Marion-Bold') format('otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+      @font-face {
+          font-family: 'New Romantics';
+          src: url('project-2/fonts/NewRomantics.woff2') format('woff2'),
+              url('project-2/fonts/NewRomantics.woff') format('woff');
+          font-weight: normal;
+          font-style: normal;
+          font-display: swap;
+      }
+
+
+      @font-face {
+          font-family: 'CloisterBlack-Light';
+          src: url('project-2/fonts/CloisterBlack-Light.otf') format('otf');
+          font-weight: 300;
+          font-style: normal;
+          font-display: swap;
+      }
+
+
+
+
+      body {
+      padding: 4px;
+        padding-top: 2em;
+        display: flex;
+        justify-content: left;
+        background-color: #ffffff;
+        background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
+
+      }
+
+
+.typewriter h1 {
+  overflow: hidden;
+  border-right: .07em solid #232323;
+    white-space: nowrap;
+    margin: -17px auto;
+    letter-spacing: .05em;
+    animation: typing 3.5s steps(40, end), blink-caret .50s step-end infinite; */
+    text-align: center;
+    font-family: "BauerBodoni-Roman";
+    font-size: 50px;
+    padding: 19px 49px;
+    position: relative;
+    right: 0;
+    top: 2;
+    color: #4C4C4C;
+
+}
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #0B2323; }
+}
+h2 {
+  font-size: 65px;
+      font-family: "BauerBodoni-Roman";
+      text-align: left;
+      line-height: -0.3em;
+      letter-spacing: 5px;
+      padding-left: 74px;
+      color: #5C5C5C;
+}
+
+.chapters {
+  font-size: 50px;
+font-family: "BauerBodoni-Roman";
+text-align: left;
+line-height:0.7em;
+letter-spacing: 5px;
+padding-left: 60px;
+color: #5C5C5C;
+
+}
+
+h3 {
+  font-size: 30px;
+  font-family: "BauerBodoni-Roman";
+  text-align: left;
+  line-height:0.7em;
+  letter-spacing: 5px;
+  padding-left: 60px;
+  color: #5C5C5C;
+}
+
+
+hr.thin {
+  height: 3px;
+      border: 0;
+      color: #757575;
+      background-color: #757575;
+      width: 103%;
+}
+
+a.one:link {color:#5C5C5C; text-decoration: none}
+a.one:visited {color:#5C5C5C;}
+a.one:hover {font-family: "New Romantics"; color:#618520; letter-spacing: 20px;}
+
+a.two:link {color:#5C5C5C; text-decoration: none}
+a.two:visited {color:#5C5C5C;}
+a.two:hover {font-family: "New Romantics"; color:#9454A4; text-decoration: none; letter-spacing: 20px;}
+
+a.three:link {color:#5C5C5C; text-decoration: none}
+a.three:visited {color:#5C5C5C;}
+a.three:hover {font-family: "New Romantics"; color:#1C618F; text-decoration: none; letter-spacing: 20px;}
+
+a.four:link {color:#5C5C5C; text-decoration: none}
+a.four:visited {color:#5C5C5C;}
+a.four:hover {font-family: "New Romantics"; color:#BA254B; text-decoration: none; letter-spacing: 20px;}
+
+
+a.five:link {color:#5C5C5C; text-decoration: none}
+a.five:visited {color:#5C5C5C;}
+a.five:hover {font-family: "New Romantics"; color:#B2BA25; text-decoration: none; letter-spacing: 20px;}
+
+a.six:link {color:#5C5C5C; text-decoration: none}
+a.six:visited {color:#5C5C5C;}
+a.six:hover {font-family: "New Romantics"; color:#E4A564; text-decoration: none; letter-spacing: 20px;}
+
+@media only screen and (max-width: 480px) {
+
+  p {
+   font-size: 12px;
+   font-family: "marion";
+   text-align: left;
+   line-height: 1.0em;
+   letter-spacing: 5px;
+ }
+
+ h3 {
+   font-size:20px;
+   font-family: "marion";}
+
+   body {
+   padding: 4px;
+     padding-top: 2em;
+     display: flex;
+     justify-content: left;
+     background-color: #ffffff;
+     background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
+
+   }
+ }

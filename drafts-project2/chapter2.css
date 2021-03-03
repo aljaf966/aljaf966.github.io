@@ -1,3 +1,4 @@
+
 /* FONT STYLES */
 @font-face {
     font-family: 'BauerBodoni-Roman';
@@ -28,7 +29,7 @@
 
 
       @font-face {
-          font-family: 'OhnoBlazefaceDemo';
+          font-family: 'OhnoBlazeface';
           src: url('project-2/fonts/OhnoBlazeface.otf') format('otf');
           font-weight: normal;
           font-style: normal;
@@ -41,9 +42,23 @@
           font-style: normal;
         }
 
-/* MEDIA STYLES */
+          @font-face {
+              font-family: 'CloisterBlack-Light';
+              src: url('project-2/fonts/CloisterBlack-Light.otf') format('otf');
+              font-weight: 300;
+              font-style: normal;
+          }
 
-        @media only screen and (min-width: 480px) {
+          @font-face {
+              font-family: 'Timelines';
+              src: url('Timelines.otf') format('otf');
+              font-weight: normal;
+              font-style: normal;
+          }
+
+/* MEDIA STYLES */
+/*big screen*/
+        @media only screen and (min-width: 768px) {
 
           .typewriter h1 {
             overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -93,16 +108,17 @@
          padding: 4px;
            padding-top: 4em;}
 
-           #chapter1 {
+           #chapter2 {
              margin-left:26px; /* Same as the width of the sidenav */
              font-size:52px; /* Increased text to enable scrolling */
              padding: 0px 10px;
            }
         }
+/*small screen*/
+        @media only screen and (max-width: 480px) {
 
-        @media only screen and (min-width: 768px) {
           p {
-           font-size: 50px;
+           font-size: 12px;
            font-family: "marion";
            text-align: left;
            line-height: 1.0em;
@@ -110,9 +126,9 @@
          }
 
          h3 {
-           font-size:40px;
-           font-family: "marion";
-         }
+           font-size:20px;
+           font-family: "marion";}
+
 
   .sidenav {  height: 128%;
     width: 122px;
@@ -146,11 +162,11 @@
 
 body {
 padding: 4px;
-  padding-top: 4em;
+  padding-top: 2em;
   display: flex;
   justify-content: left;
-background-color: #ebebeb;
-background-image: url("https://www.transparenttextures.com/patterns/broken-noise.png");
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
 
 }
 
@@ -160,41 +176,29 @@ background-image: url("https://www.transparenttextures.com/patterns/broken-noise
   padding: 0px 10px;
 }
 
-#chapter1 {
+#chapter2 {
   margin-left:26px; /* Same as the width of the sidenav */
-  font-size: 85px; /* Increased text to enable scrolling */
+  font-size:52px; /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
 
 
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .typewriter h1 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid #0B2323; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .05em; /* Adjust as needed */
-  animation:
-    typing 3.5s steps(40, end),
-    blink-caret .50s step-end infinite;
-    text-align: center;
-    font-family: "BauerBodoni-Roman";
-    font-size: 55px;
-    margin-left: 160px; /* Same as the width of the sidenav */
-    padding: 0px 10px;
-
-}
-
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #0B2323; }
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .05em;
+  text-align: center;
+  font-family: "BauerBodoni-Roman";
+  font-size: 22px;
+    color: #5C5C5C;
+  margin-right: inherit;
+padding: 0px 10px;
 }
 
 
@@ -204,20 +208,44 @@ background-image: url("https://www.transparenttextures.com/patterns/broken-noise
   text-align: left;
   line-height: 1.0em;
   letter-spacing: 5px;
+  font-weight: lighter;
+  color: #5C5C5C;
 }
 
 h3 {
-  font-size: 70px;
+  font-size: 50px;
   font-family: "marion";
+  color: #4C4C4C;
 
 }
 
 /* LINKS & BUTTON STYLES */
-a.one:link {color:#171512; text-decoration: underline; font-size: 60px;}
-a.one:visited {color:#171512;}
-a.one:hover {font-size:150%; font-family: "New Romantics" ; font-size: 60px; color:#618520; letter-spacing: 13px;text-decoration: none;}
+a.one:link {color:#0C1EB3; text-decoration: underline;}
+a.one:visited {color:#0C1EB3;}
+a.one:hover {font-family: "New Romantics"; color:#8641B3; letter-spacing: 13px;text-decoration: none;}
 
-.button {
+a {
+  font-family: "marion";
+    color: #0012D4;
+    border: none;
+    padding: -5px 32px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 78px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+a:hover {
+  color: #0B00FF;
+  font-family: "New Romantics";
+  letter-spacing: 10px;
+    text-decoration: none;
+}
+
+.button2 {
   font-family: "BauerBodoni-Roman";
     color: #000000;
     border: none;
@@ -232,11 +260,28 @@ a.one:hover {font-size:150%; font-family: "New Romantics" ; font-size: 60px; col
 
 }
 
-.button:hover {
-  font-size:60px;
-  color:#618520;
-  font-family: "CliftonTrial-Regular";
+
+.start {
+  font-family: "BauerBodoni-Roman";
+    color: #000000;
+    border: none;
+  padding: 12px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #CFCAC9;;
+
 }
+
+.start:hover {
+  color: #0B00FF;
+  font-family: "New Romantics";
+ letter-spacing: 4px;
+}
+
 .sidenav {
   height: 115%;
     width: 93px;
@@ -244,40 +289,93 @@ a.one:hover {font-size:150%; font-family: "New Romantics" ; font-size: 60px; col
     z-index: 1;
     top: -8px;
     left: -4px;
-    background-color: #CFCAC9;
+    background-color: #2B2B2B;
     overflow-x: hidden;
     padding-top: 151px;
     line-height: 86px;
+    color: #DEDEDE;
+    filter: drop-shadow(5px 5px 20px #535353);
 }
 
 .sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 50px;
-  color: #000000;
-  display: block;
-  font-family: "Marion";
+  padding: 3px 8px 0px 16px;
+    text-decoration: none;
+    font-size: 33px;
+    color: #000000;
+    display: block;
+    font-family: "Marion";
+    background-color: #2B2B2B;
+      color: #DEDEDE;
+      letter-spacing: normal;
 }
 
+
 .sidenav a:hover {
-  color: #1E19CB;
+  color: #618520;
+  background-color: #2B2B2B;
   font-family: "NewRomantics";
 }
 
 
-.spaces {
-  font-family: "New Romantics"; font-size: 90px; color: #AE2D6A;letter-spacing: 13px
+.capital:hover {
+  text-transform: uppercase; font-family: "New Romantics", color: #AE2D6A;letter-spacing: 13px;
 }
 
-.not {
-  font-family: "OhnoBlazefaceDemo"; font-weight: bold; text-decoration: underline;
+.thrilling:hover {
+  font-family: "New Romantics"; color: #24B036; letter-spacing: 14px;
 }
-.italic {
-  font-style: italic; font-family: "CliftonTrial-Regular"; font-size: 60px;
+
+.old:hover {
+ font-family: "CloisterBlack-Light"; font-size: 90px; color: #331312;
 }
-a.twolink {color:#0022E9; text-decoration: underline;font-family: "BauerBodoni-Roman"; font-size: 40px}
+
+.laws {
+  font-family: "Timelines";
+  font-size: 192px;
+  padding: 30px;
+}
+
+.deeper:hover {
+font-weight: bolder;
+color: #000000;
+}
+
+strong {
+  width: 197px;
+  height: 80px;
+border: 6px solid #373737;
+text-align: center;
+}
+
+.strawberry {
+  background: -webkit-linear-gradient(#B75088, #D197B7,#FFB9DF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.appear {
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    padding: 20px;
+      filter: blur(5px);
+}
+
+.appear:hover {
+    filter: blur(0px);
+    cursor: pointer;
+}
+
+
+a.twolink {color:#0022E9; text-decoration: underline;font-family: "BauerBodoni-Roman"; font-size: 40px; background-color: none;}
 a.two:visited {color:#0022E9;}
-a.two:hover {font-family: "BauerBodoni-Roman" ; font-size: 40px; color:#618520; letter-spacing: 13px;text-decoration: none;}
+a.two:hover {font-family: "CloisterBlack-Light" ; color:#000000; letter-spacing: normal;text-decoration: none;}
+
+a.threelink {color:#0022E9; text-decoration: underline;font-family: "BauerBodoni-Roman"; font-size: 40px; background-color: none;}
+a.three:visited {color:#0022E9;}
+a.three:hover {font-family: "BauerBodoni-Roman" ; color:#335C28; letter-spacing: normal;text-decoration: none;}
 
 
 //* #overlay {
