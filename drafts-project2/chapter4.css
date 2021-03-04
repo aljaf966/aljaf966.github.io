@@ -28,7 +28,7 @@
 
 
       @font-face {
-          font-family: 'OhnoBlazefaceDemo';
+          font-family: 'OhnoBlazeface';
           src: url('project-2/fonts/OhnoBlazeface.otf') format('otf');
           font-weight: normal;
           font-style: normal;
@@ -40,6 +40,20 @@
           font-weight: normal;
           font-style: normal;
         }
+
+          @font-face {
+              font-family: 'CloisterBlack-Light';
+              src: url('project-2/fonts/CloisterBlack-Light.otf') format('otf');
+              font-weight: 300;
+              font-style: normal;
+          }
+
+          @font-face {
+              font-family: 'Timelines';
+              src: url('Timelines.otf') format('otf');
+              font-weight: normal;
+              font-style: normal;
+          }
 
 /* MEDIA STYLES */
 /*big screen*/
@@ -113,7 +127,7 @@
          h3 {
            font-size:20px;
            font-family: "marion";}
-
+         }
 
   .sidenav {  height: 128%;
     width: 122px;

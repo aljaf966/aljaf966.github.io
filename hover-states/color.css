@@ -1,0 +1,36 @@
+body {
+  background-color: #000000;
+}
+
+
+.main {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+     color: #ffff;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 100px;
+}
+
+span:hover {
+    font-style: italic;
+    cursor: pointer;
+}
+
+.word1:hover {
+    color: mediumpurple;
+}
+
+.word2:hover {
+    color: blue;
+}
+
+.word3:hover {
+    color: red;
+    font-size: 160px;
+}
+
+.word4:hover {
+    color: green;
+}

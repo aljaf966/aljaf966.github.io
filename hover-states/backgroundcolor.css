@@ -1,0 +1,32 @@
+body {
+  background-color: #D6000C
+}
+
+
+.main {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 100px;
+    text-align: center;
+     color: #FFFFFF;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    font-style: 180px;
+}
+
+
+.phrase1:hover {
+    color: #D6010D;
+    cursor: pointer;
+}
+
+
+.phrase2:hover {
+    color: #0045FF;
+    cursor: pointer;
+}
+
+.phrase2 {
+  text-decoration: underline;
+}

@@ -1,0 +1,31 @@
+body {
+  background-color: #747474;
+}
+
+
+.main {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+     color: #3E3E3E;
+    font-family: 'Long Cang', cursive;
+    font-size: 100px;
+}
+
+
+.phrase2 {
+  color: #3E0808;
+  text-align: center;
+}
+
+#push {
+  width: 279px;
+  height: 116px;
+  outline: 1px solid black;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {outline: 15px solid #3E0808;}
+}

@@ -58,76 +58,83 @@
 
 /* MEDIA STYLES */
 /*big screen*/
-        @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 
-          .typewriter h1 {
-            overflow: hidden; /* Ensures the content is not revealed until the animation */
-            border-right: .15em solid #0B2323; /* The typwriter cursor */
-            white-space: nowrap; /* Keeps the content on a single line */
-            margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-            letter-spacing: .05em; /* Adjust as needed */
-            animation:
-              typing 3.5s steps(40, end),
-              blink-caret .50s step-end infinite;
-              text-align: center;
-              font-family: "BauerBodoni-Roman";
-              font-size: 15px;
-              margin-left: 100px; /* Same as the width of the sidenav */
-              padding: 0px 10px;
-            }
+  .typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #0B2323; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .05em; /* Adjust as needed */
+    animation:
+      typing 3.5s steps(40, end),
+      blink-caret .50s step-end infinite;
+      text-align: center;
+      font-family: "BauerBodoni-Roman";
+      font-size: 15px;
+      margin-left: 100px; /* Same as the width of the sidenav */
+      padding: 0px 10px;
+    }
 
-            .sidenav {
-              height: 115%;
-            width: 93px;
-            position: fixed;
-            z-index: 1;
-            top: -8px;
-            left: -4px;
-            background-color: #CFCAC9;
-            overflow-x: hidden;
-            padding-top: 151px;
-            line-height: 86px;
-            font-size: 20px;
-          }
+    .sidenav {
+      height: 115%;
+    width: 93px;
+    position: fixed;
+    z-index: 1;
+    top: -8px;
+    left: -4px;
+    background-color: #CFCAC9;
+    overflow-x: hidden;
+    padding-top: 151px;
+    line-height: 86px;
+    font-size: 20px;
+  }
 
-          p {
-           font-size: 26px;
-           font-family: "marion";
-           text-align: left;
-           line-height: 1.0em;
-           letter-spacing: 2px;
-         }
+  p {
+   font-size: 26px;
+   font-family: "marion";
+   text-align: left;
+   line-height: 1.0em;
+   letter-spacing: 2px;
+ }
 
-         h3 {
-           font-size: 32px;
-           font-family: "marion";
+ h3 {
+   font-size: 32px;
+   font-family: "marion";
 
-         }
+ }
 
-         body {
-         padding: 4px;
-           padding-top: 4em;}
+ body {
+ padding: 4px;
+   padding-top: 4em;
+   background-color: #ffffff;
+   background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
+}
 
-           #chapter2 {
-             margin-left:26px; /* Same as the width of the sidenav */
-             font-size:52px; /* Increased text to enable scrolling */
-             padding: 0px 10px;
-           }
-        }
+}
 /*small screen*/
-        @media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px)
 
-          p {
-           font-size: 12px;
-           font-family: "marion";
-           text-align: left;
-           line-height: 1.0em;
-           letter-spacing: 5px;
-         }
+{
+body{ padding: 4px;
+padding-top: 4em;
+background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
 
-         h3 {
-           font-size:20px;
-           font-family: "marion";}
+}
+  p {
+   font-size: 12px;
+   font-family: "marion";
+   text-align: left;
+   line-height: 1.0em;
+   letter-spacing: 5px;
+   padding-right: 5px;
+ }
+
+ h3 {
+   font-size:20px;
+   font-family: "marion";}
+ }
 
 
   .sidenav {  height: 128%;

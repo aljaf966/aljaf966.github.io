@@ -1,0 +1,33 @@
+body {
+  background-color: #000000;
+}
+
+
+.main {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+     color: #FFFFFF;
+    font-family: 'Questrial', sans-serif;
+    font-size: 100px;
+}
+
+
+.phrase2 {
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    padding: 20px;
+}
+
+.phrase2:hover {
+    filter: blur(0px);
+    cursor: pointer;
+}
+.phrase2 {
+    filter: blur(15px);
+    cursor: pointer;
+}
