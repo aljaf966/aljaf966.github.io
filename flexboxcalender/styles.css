@@ -1,0 +1,84 @@
+.week {
+  display: flex;
+}
+
+.th {
+    flex: 30px 0 0;
+      font-family: 'Fascinate', cursive;
+      color: #D096EA;
+      margin: 30px;
+      padding: 20px;
+          font-size: 32px;
+          word-spacing: : 5px;
+
+}
+
+.day-names {
+  flex-grow: 5;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: #A6B8FF;
+  background-color: #E5EA96;
+}
+.day {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+  font-family: 'Fascinate', cursive;
+}
+
+.month {
+  max-width: 1060px;
+  margin: 50px auto;
+  margin-top:
+}
+
+
+/* OTHER STYLES */
+
+html, body {
+  height: 100%;
+}
+
+body {
+
+   background-image: url("background2.gif");
+
+}
+
+max-width: {
+  1059px;
+margin: 231px auto;
+}
+.week {
+  height: 131px;
+}
+
+.day {
+    color: #784BAB;
+    padding: 15px;
+    font-size: 30px;
+    box-shadow: 4px -5px #d096ea, inset 4px -7px 0 0 #d096ea;
+  }
+
+
+  p {
+      font-family: 'Fascinate', cursive;
+    font-size: 37px;
+    color: #A6B8FF;
+    background-color: #E5EA96;
+    text-align: center;
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    border: 3px;
+    border-color: #D096EA:
+  }
+h1 {
+  font-family: 'Fascinate', cursive;
+font-size: 69px;
+color: #A6B8FF;
+text-align: center;
+}
