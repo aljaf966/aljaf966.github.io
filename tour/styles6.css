@@ -1,0 +1,69 @@
+body {
+ background-image: url("daises.gif");
+ height: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+background-color: #CCBCE7;
+}
+
+
+.container1 {
+  padding:5px;
+  margin: 16px;
+}
+
+h1 {
+  color: #EAEAEA;
+  text-align: left;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 57px;
+  text-shadow: 2px 2px 5px #4E5496;
+}
+
+h2 {
+  color: #383E78;
+  text-align: left;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 22px;
+  text-shadow: 2px 2px 5px #D5D5D5;
+}
+
+
+p {
+  color: #363F80;
+text-align: left;
+font-family: 'Libre Baskerville', serif;
+font-size: 18px;
+font-weight: bolder;
+margin: 15px;
+margin-right: 2px;
+}
+
+.container2 {
+  display: block;
+    width: 100px;
+    height: 100px;
+    width:57%;
+    padding: 4px;
+}
+
+img {
+  width:340px;
+    height: auto;
+    position: fixed;
+    top:417px;
+}
+
+@media (min-width: 814px) {
+body {
+ background-image: url("daises.gif");
+ height: 100%;
+ background-position: center;
+ background-repeat: repeat;
+ background-size: cover;
+background-color: #CCBCE7;
+}
+
+
+}

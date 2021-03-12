@@ -1,0 +1,143 @@
+body {
+ background-image: url("downtherabbithole.gif");
+ height: 100%;
+ background-position: center;
+ background-repeat: repeat;
+ background-size: cover;
+background-color: #000000;
+}
+
+
+h1 {
+  color: #5C92E4;
+  text-align: center;
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 100px;
+}
+
+h2 {
+  color: #8BAEE4;
+  text-align: center;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 60px;
+}
+
+p {
+  color: #9C9C9C;
+  text-align:center;
+  font-family: 'Cormorant Unicase', serif;
+  font-size: 70px;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.button {
+   border-top: 1px solid #ffffff;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3c7ca6), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3c7ca6, #65a9d7);
+   background: -moz-linear-gradient(top, #3c7ca6, #65a9d7);
+   background: -ms-linear-gradient(top, #3c7ca6, #65a9d7);
+   background: -o-linear-gradient(top, #3c7ca6, #65a9d7);
+   padding: 13px 26px;
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   border-radius: 40px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 65px;
+   font-family: 'Fredericka the Great', cursive;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #90bddb;
+   background: #90bddb;
+   color: #571c57;
+   }
+.button:active {
+   border-top-color: #0a3f63;
+   background: #0a3f63;
+   }
+
+
+
+
+@media (min-width: 814px) {
+  body {
+   background-image: url("downtherabbithole.gif");
+   height: 100%;
+   background-position: center;
+   background-repeat: repeat;
+   background-size: cover;
+  background-color: #000000;
+  }
+
+  h1 {
+    color: #5C92E4;
+    text-align: center;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 80px;
+  }
+
+  h2 {
+    color: #8BAEE4;
+    text-align: center;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 60px;
+  }
+
+  p {
+    color: #FFFFFF;
+    text-align:center;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 35px;
+  }
+
+
+  .button {
+     border-top: 1px solid #ffffff;
+     background: #65a9d7;
+     background: -webkit-gradient(linear, left top, left bottom, from(#3c7ca6), to(#65a9d7));
+     background: -webkit-linear-gradient(top, #3c7ca6, #65a9d7);
+     background: -moz-linear-gradient(top, #3c7ca6, #65a9d7);
+     background: -ms-linear-gradient(top, #3c7ca6, #65a9d7);
+     background: -o-linear-gradient(top, #3c7ca6, #65a9d7);
+     padding: 13px 26px;
+     -webkit-border-radius: 40px;
+     -moz-border-radius: 40px;
+     border-radius: 40px;
+     -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+     -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+     box-shadow: rgba(0,0,0,1) 0 1px 0;
+     text-shadow: rgba(0,0,0,.4) 0 1px 0;
+     color: white;
+     font-size: 26px;
+     font-family: 'Fredericka the Great', cursive;
+     text-decoration: none;
+     vertical-align: middle;
+     }
+
+     .button:hover {
+        border-top-color: #90bddb;
+        background: #90bddb;
+        color: #571c57;
+        }
+     .button:active {
+        border-top-color: #0a3f63;
+        background: #0a3f63;
+        }
+        .center {
+        margin: 0;
+        position: absolute;
+        top:90%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+  }

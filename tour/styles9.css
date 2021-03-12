@@ -1,0 +1,52 @@
+body {
+ background-image: url("checkered.jpeg");
+ height: 100%;
+ background-position: center;
+ background-repeat: repeat;
+ background-size: cover;
+background-color: #000000;
+}
+
+
+h1 {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 57px;
+  text-shadow: 2px 2px 5px #437045;
+
+}
+
+h2 {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 42px;
+  text-shadow: 2px 2px 5px #437045;
+}
+
+
+p {
+  color: #FFFFFF;
+text-align: center;
+font-family: 'Libre Baskerville', serif;
+font-size: 20px;
+font-weight: bolder;
+margin: 15px;
+padding: 3px;
+margin-right: 2px;
+text-shadow: 2px 2px 5px #437045;
+
+}
+
+
+.img3 {
+  width:340px;
+  height: auto;
+  position: relative;
+  top:42px;
+  left: 500px;
+
+  border-radius: 50%;
+
+}

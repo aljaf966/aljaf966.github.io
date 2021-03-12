@@ -1,0 +1,109 @@
+body {
+background-color: #8FB9EA;
+}
+
+.container1 {
+  padding:5px;
+  margin: 16px;
+}
+
+h1 {
+  color: #EAEAEA;
+  text-align: left;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 57px;
+  text-shadow: 2px 2px 5px #4E5496;
+
+}
+
+h2 {
+  color: #383E78;
+  text-align: left;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 42px;
+  text-shadow: 2px 2px 5px #D5D5D5;
+}
+
+
+p {
+  color: #363F80;
+text-align: left;
+font-family: 'Libre Baskerville', serif;
+font-size: 18px;
+font-weight: bolder;
+margin: 15px;
+padding: 3px;
+margin-right: 2px;
+}
+
+.container2 {
+  display: block;
+    width: 100px;
+    height: 100px;
+    width:57%;
+    padding: 4px;
+}
+
+.cropper1 {
+
+      width: 262px;
+      height: 236px;
+      border-radius: 50%;
+      position: relative;
+      right: -771px;
+
+}
+
+
+.img1 {
+  display: inline;
+  margin: 0 auto;
+  margin-left: -9%;
+  height: 114%;
+  width: auto;
+  border-radius: 50%;
+  border: 4px;
+  border-color: #EA8FCC;
+}
+
+
+
+.cropper2 {
+
+      width: 600px;
+      height: 600px;
+      border-radius: 50%;
+      position: relative;
+      right: -500px;
+    top: -160px;
+
+}
+
+
+.img2 {
+  display: inline;
+      margin: 0 auto;
+      margin-left: -186%;
+      height: 65%;
+      width: auto;
+      border-radius: 50%;
+      border: 4px;
+      border-color: #EA8FCC;
+
+}
+
+
+.container2 {
+  display: block;
+    width: 100px;
+    height: 100px;
+    width:57%;
+    padding: 4px;
+}
+
+.img3 {
+  width:200px;
+    height: auto;
+    position: relative;
+    top:-500px;
+}

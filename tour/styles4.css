@@ -1,0 +1,60 @@
+body {
+  height: 3200px;
+  background: linear-gradient(141deg, #000000 0%, #0F2C11 51%, #256A2A 75%);
+  margin: 61px;
+}
+.container1 {
+  padding:21px;
+  margin: 30px;
+}
+
+h1 {
+  color: #EAEAEA;
+  text-align: center;
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 86px;
+}
+
+h2 {
+  color: #3FB548;
+  text-align: center;
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 60px;
+}
+
+.container2 {
+padding: 30px;
+}
+
+p {
+  color: #2E8635;
+  text-align:center;
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 61px;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Fredericka the Great', cursive;
+  color: #C6D2E4;
+}
+
+img {
+  padding: 52px;
+  margin: 85px;
+}
+
+
+@media (min-width: 814px) {
+
+  img {
+    padding: 52px;
+    margin: 85px;
+    position: absolute;
+    top: 94%;
+    left: 15%;
+  }
+
+}

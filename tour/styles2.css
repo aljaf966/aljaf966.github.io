@@ -1,0 +1,147 @@
+body {
+ background-image: url("downrabbithole.gif");
+ height: 100%;
+ background-position: center;
+ background-repeat: repeat;
+ background-size: cover;
+background-color: #000000;
+}
+
+h1 {
+  color: #EAEAEA;
+  text-align: center;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 100px;
+}
+
+h2 {
+  color: #DFC6EA;
+  text-align: center;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 60px;
+  opacity: 60%;
+}
+
+p {
+  color: #D8B1EA;
+  text-align:center;
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 25px;
+  padding: 75px;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.button {
+	box-shadow: 0px -1px 0px 0px #e184f3;
+	background:linear-gradient(to bottom, #f3c7fc 5%, #c261d6 100%);
+	background-color:#f3c7fc;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:80px;
+	font-weight:bold;
+	padding:17px 46px;
+  align-items: center;
+  text-decoration: none;
+  font-family: 'Fredericka the Great', cursive;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #c261d6 5%, #f3c7fc 100%);
+	background-color:#c261d6;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+  .center {
+  margin: 0;
+  position: absolute;
+  top: 86%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+@media (min-width: 814px) {
+  body {
+   background-image: url("downrabbithole.gif");
+   height: 100%;
+   background-position: center;
+   background-repeat: repeat;
+   background-size: cover;
+  background-color: #000000;
+  padding: 40px;
+  }
+
+  h1 {
+    color: #EAEAEA;
+    text-align: center;
+  font-family: 'DotGothic16', sans-serif;
+    font-size: 100px;
+  }
+
+  h2 {
+    color: #DFC6EA;
+    text-align: center;
+  font-family: 'DotGothic16', sans-serif;
+    font-size: 60px;
+    opacity: 60%;
+  }
+
+  p {
+    color: #D8B1EA;
+    text-align:center;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 25px;
+    padding: 0px;
+  }
+
+  a {
+    text-decoration: none;
+    font-family: 'Fredericka the Great', cursive;
+  }
+
+  .button {
+  	box-shadow: 0px -1px 0px 0px #e184f3;
+  	background:linear-gradient(to bottom, #f3c7fc 5%, #c261d6 100%);
+  	background-color:#f3c7fc;
+  	border-radius:42px;
+  	display:inline-block;
+  	cursor:pointer;
+  	color:#ffffff;
+  	font-family:Arial;
+  	font-size:26px;
+  	font-weight:bold;
+  	padding:17px 46px;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Fredericka the Great', cursive;
+  }
+
+  .button:hover {
+  	background:linear-gradient(to bottom, #c261d6 5%, #f3c7fc 100%);
+  	background-color:#c261d6;
+  }
+  .button:active {
+  	position:relative;
+  	top:1px;
+  }
+
+  .center {
+  margin: 0;
+  position: absolute;
+  top: 86%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  }
+
+}
