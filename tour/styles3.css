@@ -91,7 +91,7 @@ a {
 }
 
 
-@media (min-width: 814px) {
+@media only screen and (min-width: 814px) {
 
   p {
     color: #56B65E;
@@ -118,7 +118,7 @@ a {
   .button1 {
     font-weight: bold;
     color: #FFFFFF;
-    font-size: 22px;
+    font-size: 40px;
     text-shadow: 1px 1px 0px #7CACDE;
     box-shadow: 4px 1px 1px #BEE2F9;
     padding: 18px 33px;
@@ -133,7 +133,7 @@ a {
     margin: 41px;
       font-family: 'Fredericka the Great', cursive;
       color: #CCC2C2 !important;
-      font-size: 22px;
+      font-size: 40px;
       text-shadow: 0px 0px 1px #000000;
       box-shadow: 1px 1px 1px #bee2f9;
       padding: 20px 39px;
