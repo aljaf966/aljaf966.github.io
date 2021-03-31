@@ -22,6 +22,10 @@ h2 {
   font-size: 60px;
 }
 
+#hiddenMessege {
+filter: blur(8px);
+}
+
 p {
   color: #9C9C9C;
   text-align:center;

@@ -1,0 +1,50 @@
+body {
+font-family: 'Dela Gothic One', cursive;
+  background-color: #C9E1FA;
+}
+
+h1 {
+  font-size: 60px;
+color: #1E073C;
+text-align: center;
+text-transform: uppercase;
+}
+
+h2 {
+  font-size: 30px;
+  color: #1E073C;
+  text-align: center;
+}
+
+
+img {
+	width: 350px;
+	position: absolute;
+}
+
+.eighties {
+  top: 27%;
+  left: 64%;
+}
+
+.nineties {
+	top: 30%;
+	left: 10%;
+}
+
+.twothousands{
+	top: 30%;
+	left: 37%;
+
+}
+
+.twothousandten {
+	top: 60%;
+	left:21%;
+	z-index: 10;
+}
+
+.twothousandtwenty {
+  top: 60%;
+  left: 49%;
+}
