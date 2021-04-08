@@ -1,0 +1,19 @@
+@font-face {
+    font-family: '';
+    src: url('project-3/fonts/CliftonTrial-Italic') format('otf');
+    font-weight: normal;
+    font-style: italic; }
+
+
+p {
+  font-family: CliftonTrial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 137.5%;
+  /* or 22px */
+
+  letter-spacing: -0.055em;
+
+  color: #0F5AA6;
+}

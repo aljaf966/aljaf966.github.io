@@ -1,0 +1,126 @@
+@font-face {
+    font-family: '';
+    src: url('project-3/fonts/CliftonTrial-Italic') format('otf');
+    font-weight: normal;
+    font-style: italic; }
+
+    @font-face {
+        font-family: '';
+        src: url('project-3/fonts/CliftonTrial-Regular') format('otf');
+        font-weight: normal;
+        font-style: normal; }
+
+body {
+background-color: #D0D5E1;
+}
+
+.background {
+  width: 100%;
+height: 2000px;
+align-items: center;
+justify-content: center;
+background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.background::after {
+  content: "";
+  background: url("bckg.jpg");
+  opacity: 25%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-position: center;
+   background-repeat: repeat;
+   background-size: cover;
+}
+
+.midtext {
+  position: absolute;
+width: 475px;
+height: 230px;
+left: 580px;
+top: 343px;
+
+font-family: Charter;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 137.5%;
+/* or 36px */
+
+text-align: center;
+letter-spacing: -0.055em;
+
+color: #4B6AA4;
+}
+
+.credit {
+  position: fixed; bottom: 0; width:100%; text-align: center; font-family: CliftonTrial;
+  position: absolute;
+
+
+font-family: CliftonTrial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 137.5%;
+/* or 22px */
+
+letter-spacing: -0.055em;
+
+color: #0F5AA6;
+
+}
+h1 {
+
+    position: absolute;
+  width: 406px;
+  height: 84px;
+  left: 630px;
+  top: 224px;
+
+  font-family: CliftonTrial;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 65px;
+  line-height: 137.5%;
+  /* or 89px */
+
+  letter-spacing: -0.105em;
+
+  color: #4C6AA4;
+}
+
+.button {
+  position: absolute;
+width: 195px;
+height: 49px;
+left: 730px;
+top: 607px;
+
+background: rgba(244, 244, 244, 0.79);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 29px;
+font-family: CliftonTrial;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 137.5%;
+/* or 26px */
+
+letter-spacing: -0.105em;
+
+color: #4C6AA4;
+}
+
+a {
+text-decoration: none;
+}
+
+a:hover {
+  color: #1A3F85:
+}
