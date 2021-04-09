@@ -1,4 +1,48 @@
-.chairs {
-  height: 100%;
-  width: 100%;
+
+  .container {
+    position: relative;
+    margin: 80px auto;
+    height: 400px;
+    width: 90%;
+  }
+
+.pizza {
+    position: absolute;
+    top: 30;
+    display: block;
+    width: 130px;
+  }
+
+  .table {
+     width: 500px;
+
+  }
+
+  .Plates {
+    width: 196px;
+    height: 170px;
+  }
+
+  .guestone {
+    width: 500px;
+  }
+
+  .placemat {
+    height: 150px;
+    width: 210px;
+    z-index: 8;
+    float: left;
+  margin-left: 0px 0px 0px 30px;
+  }
+
+  .chairs {
+
+    width: 50%;
+  }
+
+.glass {
+  height: 200px;
+}
+.guestone{
+  width: 300px;
 }

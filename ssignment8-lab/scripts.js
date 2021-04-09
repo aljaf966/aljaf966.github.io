@@ -90,34 +90,101 @@ function setTable(allItems) {
       }
     }
 
+    if (name === "placemat") {
+      for (var i=0; i<3; i++) {
+        let Placemat = document.createElement('img');
+        Placemat.src = imageUrl;
+      Placemat.classList.add("placemat");
 
-     if (name === "glass") {
+        if (i === 0) {
+          Placemat.style.left = "80%";
+        }
+        if (i === 1) {
+          Placemat.style.left = "80%";
+          Placemat.style.top = "60%";
+        }
+        if (i === 2) {
+      Placemat.style.left = "10%";
+          Placemat.style.top = "10%";
+          Placemat.style.scale = "30%";
+        }
+
+        container.appendChild(Placemat);
+      }
+    }
+
+    if (name === "pizza") {
+        for (var i=0; i<1; i++) {
+          let pizza = document.createElement('img');
+        pizza.src = imageUrl;
+        pizza.classList.add("pizza");
+
+    if (i === 0) {
+        pizza.style.left = "80%";
+        pizza.style.top = "50%";
+            }
+
+            container.appendChild(pizza);
+         }
+       }
+
+if (name === "glass") {
     for (var i=0; i<1; i++) {
       let glass = document.createElement('img');
-     glass.src = imageUrl;
+    glass.src = imageUrl;
     glass.classList.add("glass");
 
-     if (i === 0) {
-      glass.style.left = "70%";
-         glass.style.top = "20%";
+if (i === 0) {
+    glass.style.left = "70%";
+    glass.style.top = "20%";
         }
 
         container.appendChild(glass);
      }
    }
 
-
-   if (name === "chairs") {
-  for (var i=0; i<1; i++) {
-    let chairs = document.createElement('img');
-   chairs.src = imageUrl;
-  chairs.classList.add("chairs");
+   if (name === "guestone") {
+       for (var i=0; i<1; i++) {
+         let guestone = document.createElement('img');
+       guestone.src = imageUrl;
+       guestone.classList.add("guestone");
 
    if (i === 0) {
-    chairs.style.left = "40%";
-       chairs.style.top = "50%";
+       guestone.style.left = "30%";
+       guestone.style.top = "40%";
+           }
+
+           container.appendChild(guestone);
+        }
       }
 
-      container.appendChild(chairs);
-   }
- }
+   if (name === "chairs") {
+       for (var i=0; i<1; i++) {
+         let chairs = document.createElement('img');
+       chairs.src = imageUrl;
+       chairs.classList.add("chairs");
+
+   if (i === 0) {
+       chairs.style.left = "60%";
+       chairs.style.top = "80%";
+           }
+
+           container.appendChild(chairs);
+        }
+      }
+      if (name === "table") {
+          for (var i=0; i<1; i++) {
+            let table = document.createElement('img');
+          table.src = imageUrl;
+          table.classList.add("table");
+
+      if (i === 0) {
+          table.style.left = "60%";
+          table.style.top = "40%";
+              }
+
+              container.appendChild(table);
+           }
+         }
+})
+}
