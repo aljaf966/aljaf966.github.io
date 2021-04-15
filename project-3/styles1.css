@@ -5,15 +5,364 @@
     font-style: italic; }
 
 
-p {
+.sunrise, .sunset, .midday{
   font-family: CliftonTrial;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 20px;
   line-height: 137.5%;
   /* or 22px */
-
   letter-spacing: -0.055em;
-
   color: #0F5AA6;
+}
+
+@-webkit-keyframes float {
+    0% {
+        -webkit-transform: translate(0vw) scaleX(1);
+    }
+    100% {
+        -webkit-transform: translate(120vw) scaleX(1);
+    }
+}
+
+.sunrise1 {
+    top: 50px;
+    left: -150px;
+    width: 200px;
+    height: 200px;
+    filter: opacity(50%);
+    position:absolute;
+    -webkit-animation: float 25s infinite linear;
+    -moz-animation: float 25s infinite linear;
+    -o-animation: float 25s infinite linear;
+    animation: float 25s infinite linear;
+}
+
+.small {
+  width: 340px;
+}
+
+.medium {
+  width: 555px;
+}
+
+.large {
+  width: 777px;
+}
+
+.sunrise2 {
+  top: 130px;
+  left: -580px;
+  filter: opacity(70%);
+  position:absolute;
+  -webkit-animation: float 30s infinite linear;
+  -moz-animation: float 30s infinite linear;
+  -o-animation: float 30s infinite linear;
+  animation: float 30s infinite linear;
+  animation-delay: 2s;
+}
+
+.sunrise3 {
+  top: 200px;
+    left: -800px;
+    position:absolute;
+    -webkit-animation: float 24s infinite linear;
+    -moz-animation: float 24s infinite linear;
+    -o-animation: float 24s infinite linear;
+    animation: float 24s infinite linear;
+    animation-delay: 5s;
+}
+
+.sunrise4 {
+    top: 10px;
+    left: -900px;
+    filter: opacity(80%);
+    position:absolute;
+    -webkit-animation: float 36s infinite linear;
+    -moz-animation: float 36s infinite linear;
+    -o-animation: float 36s infinite linear;
+    animation: float 36s infinite linear;
+    animation-delay: 10s;
+}
+
+.sunrise5 {
+  top: 150px;
+  left: -900px;
+  filter: opacity(70%);
+  position:absolute;
+  -webkit-animation: float 36s infinite linear;
+  -moz-animation: float 36s infinite linear;
+  -o-animation: float 36s infinite linear;
+  animation: float 36s infinite linear;
+  animation-delay: 20s;
+}
+
+
+.sunrise6 {
+  top: 200px;
+      left: -800px;
+      position:absolute;
+      filter: opacity(65%);
+      -webkit-animation: float 24s infinite linear;
+      -moz-animation: float 24s infinite linear;
+      -o-animation: float 24s infinite linear;
+      animation: float 24s infinite linear;
+      animation-delay: 25s;
+}
+
+.sunrise7 {
+  top: 250px;
+   left: -700px;
+   filter: opacity(85%);
+   position:absolute;
+   -webkit-animation: float 30s infinite linear;
+   -moz-animation: float 30s infinite linear;
+   -o-animation: float 30s infinite linear;
+   animation: float 30s infinite linear;
+   animation-delay: 10s;
+}
+
+.sunrise8 {
+  top: 320px;
+    left: -800px;
+    filter: opacity(45%);
+    position:absolute;
+    -webkit-animation: float 51s infinite linear;
+    -moz-animation: float 51s infinite linear;
+    -o-animation: float 51s infinite linear;
+    animation: float 51s infinite linear;
+    animation-delay: 6s;
+}
+
+.sunrise9 {
+  top: 250px;
+    left: -800px;
+    position:absolute;
+    -webkit-animation: float 37s infinite linear;
+    -moz-animation: float 37s infinite linear;
+    -o-animation: float 37s infinite linear;
+    animation: float 37s infinite linear;
+    animation-delay: 8s;
+}
+
+.sunrise10 {
+  top: 300px;
+   left: -800px;
+   position:absolute;
+   filter: opacity(65%);
+   -webkit-animation: float 50s infinite linear;
+   -moz-animation: float  50s infinite linear;
+   -o-animation: float  50s infinite linear;
+   animation: float 50s infinite linear;
+   animation-delay: 30s;
+}
+
+.sunrise11 {
+  top: 210px;
+      left: -800px;
+      filter: opacity(50%);
+      position:absolute;
+      -webkit-animation: float 55s infinite linear;
+      -moz-animation: float 55s infinite linear;
+      -o-animation: float 55s infinite linear;
+      animation: float 55s infinite linear;
+      animation-delay: 35s;
+}
+
+.sunrise12 {
+  top: 240px;
+      left: -800px;
+      filter: opacity(10%);
+      position:absolute;
+      -webkit-animation: float 30s infinite linear;
+      -moz-animation: float 30s infinite linear;
+      -o-animation: float 30s infinite linear;
+      animation: float 30s infinite linear;
+      animation-delay: 40s;
+
+}
+
+.sunrise13 {
+  top: 267px;
+   left: -800px;
+   position:absolute;
+   filter: opacity(90%);
+   -webkit-animation: float 45s infinite linear;
+   -moz-animation: float 45s infinite linear;
+   -o-animation: float 45s infinite linear;
+   animation: float 45s infinite linear;
+   animation-delay: 45s;
+}
+
+.sunrise14 {
+  top: 150px;
+   left: -800px;
+   position:absolute;
+   filter: opacity(50%);
+   -webkit-animation: float 50s infinite linear;
+   -moz-animation: float  50s infinite linear;
+   -o-animation: float  50s infinite linear;
+   animation: float 50s infinite linear;
+   animation-delay: 50s;
+}
+
+.sunrise15 {
+  top: 80px;
+  left: -800px;
+  width: 200px;
+  height: 200px;
+  filter: opacity(60%);
+  position:absolute;
+  -webkit-animation: float 30s infinite linear;
+  -moz-animation: float 30s infinite linear;
+  -o-animation: float 30s infinite linear;
+  animation: float 30s infinite linear;
+  animation-delay: 34s;
+
+}
+
+.sunrise16 {
+  top: 140px;
+  left: -800px;
+  width: 200px;
+  filter: opacity(40%);
+  height: 200px;
+  position:absolute;
+  -webkit-animation: float 50s infinite linear;
+  -moz-animation: float 50s infinite linear;
+  -o-animation: float 50s infinite linear;
+  animation: float 50s infinite linear;
+  animation-delay: 36s;
+}
+
+.sunrise17 {
+  top: 160px;
+   left: -800px;
+   position:absolute;
+   filter: opacity(90%);
+   -webkit-animation: float 45s infinite linear;
+   -moz-animation: float 45s infinite linear;
+   -o-animation: float 45s infinite linear;
+   animation: float 45s infinite linear;
+   animation-delay: 60s;
+
+}
+
+.sunrise18 {
+  top: 185px;
+   left: -800px;
+   position:absolute;
+   filter: opacity(80%);
+   -webkit-animation: float 52s infinite linear;
+   -moz-animation: float  52s infinite linear;
+   -o-animation: float  52s infinite linear;
+   animation: float 52s infinite linear;
+   animation-delay: 46s;
+}
+
+.sunrise19 {
+  top: 260px;
+    left: -800px;
+    position:absolute;
+     filter: opacity(60%);
+    -webkit-animation: float 39s infinite linear;
+    -moz-animation: float 39s infinite linear;
+    -o-animation: float 39s infinite linear;
+    animation: float 39s infinite linear;
+    animation-delay: 80s;
+}
+
+.sunrise20 {
+  top: 380px;
+    left: -800px;
+    position:absolute;
+    -webkit-animation: float 54s infinite linear;
+    -moz-animation: float 54s infinite linear;
+    -o-animation: float 54s infinite linear;
+    animation: float 54s infinite linear;
+    animation-delay: 70s;
+}
+
+.sunrise21 {
+  top: 155px;
+   left: -800px;
+   position:absolute;
+   -webkit-animation: float 34s infinite linear;
+   -moz-animation: float 34s infinite linear;
+   -o-animation: float 34s infinite linear;
+   animation: float 34s infinite linear;
+   animation-delay: 90s;
+}
+  @media only screen and (max-width: 375px) {
+
+    body {
+      padding: 500px;
+    }
+  }
+.sunrise22 {
+  top: 350px;
+    left: -800px;
+    position:absolute;
+    filter: opacity(85%);
+    -webkit-animation: float 23s infinite linear;
+    -moz-animation: float 23s infinite linear;
+    -o-animation: float 23s infinite linear;
+    animation: float 23s infinite linear;
+    animation-delay: 100s;
+}
+button {
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  padding: 5;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #0F5AA6;
+}
+
+a:hover {
+  color: #030E49;
+}
+
+a:active {
+  color: #C9D9E8;
+}
+body {
+background-color: #D0D5E1;
+padding: 15px;
+}
+
+
+iframe {
+  position: absolute;
+bottom: 0;
+right: 0;
+filter: opacity(80%);
+border-radius: 10px;
+}
+.background {
+  width: 100%;
+height: 2000px;
+align-items: center;
+justify-content: center;
+background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.background::after {
+  content: "";
+  background: url("bckg.jpg");
+  opacity: 25%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-position: center;
+   background-repeat: repeat;
+   background-size: cover;
 }

@@ -42,16 +42,14 @@ base('my-table').select({}).eachPage(function page(tableItems, fetchNextPage) {
 
 
 function setTable(allItems) {
-  // make a container div and append it to the body
-  // this way we can append all of our items to a div which we can style later
+
   let container = document.createElement("div");
   container.classList.add("container");
   document.body.appendChild(container);
 
-  // run a forEach loop on your array, with each item
-  // then make a new HTML element and position it somewhere on the page
+
   allItems.forEach(function(item) {
-    // store the name of the item (from your spreadsheet) into a variable
+
     let name = item.fields.items;
     // store the image for the item into a variable
     let imageUrl = item.fields.images[0].url;

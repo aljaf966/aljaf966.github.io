@@ -1,0 +1,392 @@
+@font-face {
+    font-family: '';
+    src: url('project-3/fonts/CliftonTrial-Italic') format('otf');
+    font-weight: normal;
+    font-style: italic; }
+
+
+.sunrise, .sunset, .midday{
+  font-family: CliftonTrial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 137.5%;
+  /* or 22px */
+  letter-spacing: -0.055em;
+  color: #0F5AA6;
+}
+.small {
+  width: 340px;
+}
+
+.medium {
+  width: 555px;
+}
+
+.large {
+  width: 777px;
+}
+
+@-webkit-keyframes float {
+    0% {
+        -webkit-transform: translate(0vw) scaleX(1);
+          transition-timing-function: ease-in;
+    }
+    100% {
+        -webkit-transform: translate(120vw) scaleX(1);
+        transition-timing-function: ease-out;
+    }
+}
+
+.midday1 {
+    top: 70px;
+    left: -150px;
+    width: 200px;
+    height: 200px;
+    filter: opacity(80%);
+    position:absolute;
+    -webkit-animation: float 40s infinite linear;
+    -moz-animation: float 40s infinite linear;
+    -o-animation: float 40s infinite linear;
+    animation: float 40s infinite linear;
+}
+
+.midday2 {
+  top: 145px;
+  left: -800px;
+  filter: opacity(70%);
+  position:absolute;
+  -webkit-animation: float 30s infinite linear;
+  -moz-animation: float 30s infinite linear;
+  -o-animation: float 30s infinite linear;
+  animation: float 30s infinite linear;
+  animation-delay: 3s;
+}
+
+.midday3 {
+  top: 200px;
+    left: -800px;
+    position:absolute;
+    -webkit-animation: float 36s infinite linear;
+    -moz-animation: float 36s infinite linear;
+    -o-animation: float 36s infinite linear;
+    animation: float 36s infinite linear;
+    animation-delay: 7s;
+  }
+
+.midday4 {
+  top: 10px;
+  left: -800px;
+  filter: opacity(90%);
+  position:absolute;
+  -webkit-animation: float 34s infinite linear;
+  -moz-animation: float 34s infinite linear;
+  -o-animation: float 34s infinite linear;
+  animation: float 34s infinite linear;
+  animation-delay: 10s;
+}
+
+.midday5 {
+  top: 150px;
+  left: -900px;
+  filter: opacity(70%);
+  position:absolute;
+  -webkit-animation: float 45s infinite linear;
+  -moz-animation: float 45s infinite linear;
+  -o-animation: float 45s infinite linear;
+  animation: float 45s infinite linear;
+  animation-delay: 13s;
+}
+
+.midday6 {
+  top: 200px;
+      left: -800px;
+      position:absolute;
+      filter: opacity(55%);
+      -webkit-animation: float 28s infinite linear;
+      -moz-animation: float 28s infinite linear;
+      -o-animation: float 28s infinite linear;
+      animation: float 28s infinite linear;
+      animation-delay: 15s;
+}
+
+.midday7 {
+  top: 265px;
+    left: -800px;
+    filter: opacity(30%);
+    position:absolute;
+    -webkit-animation: float 29s infinite linear;
+    -moz-animation: float  29s infinite linear;
+    -o-animation: float 29s infinite linear;
+    animation: float 29s infinite linear;
+      animation-delay: 29s;
+}
+
+
+.midday8 {
+  top: 175px;
+    left: -800px;
+    filter: opacity(30%);
+    position:absolute;
+    -webkit-animation: float 60s infinite linear;
+    -moz-animation: float 60s infinite linear;
+    -o-animation: float 60s infinite linear;
+    animation: float 60s infinite linear;
+    animation-delay: 25s;
+}
+
+.midday9 {
+  top: 295px;
+    left: -800px;
+    position:absolute;
+    -webkit-animation: float 46s infinite linear;
+    -moz-animation: float 46s infinite linear;
+    -o-animation: float 46s infinite linear;
+    animation: float 46s infinite linear;
+    animation-delay: 30s;
+}
+
+.midday10 {
+  top: 215px;
+    left: -800px;
+    filter: opacity(85%);
+    position:absolute;
+    -webkit-animation: float 44s infinite linear;
+    -moz-animation: float 44s infinite linear;
+    -o-animation: float 44s infinite linear;
+    animation: float 44s infinite linear;
+    animation-delay: 35s;
+}
+
+.midday11 {
+  top: 190px;
+    left: -1000px;
+    filter: opacity(25%);
+    position:absolute;
+    -webkit-animation: float 26s infinite linear;
+    -moz-animation: float 26s infinite linear;
+    -o-animation: float 26s infinite linear;
+    animation: float 26s infinite linear;
+    animation-delay: 40s;
+}
+
+.midday12 {
+  top: 140px;
+    left: -800px;
+    position:absolute;
+    -webkit-animation: float 31s infinite linear;
+    -moz-animation: float 31s infinite linear;
+    -o-animation: float 31s infinite linear;
+    animation: float 31s infinite linear;
+    animation-delay: 45s;
+}
+
+.midday13 {
+  top: 260px;
+    left: -800px;
+    position:absolute;
+     filter: opacity(60%);
+    -webkit-animation: float 39s infinite linear;
+    -moz-animation: float 39s infinite linear;
+    -o-animation: float 39s infinite linear;
+    animation: float 39s infinite linear;
+    animation-delay: 80s;
+}
+
+.midday14 {
+  top: 135px;
+    left: -800px;
+    position:absolute;
+    filter: opacity(44%);
+    -webkit-animation: float 49s infinite linear;
+    -moz-animation: float 49s infinite linear;
+    -o-animation: float 49s infinite linear;
+    animation: float 49s infinite linear;
+    animation-delay: 60s;
+}
+
+.midday15 {
+  top: 380px;
+    left: -800px;
+    filter: opacity(10%);
+    position:absolute;
+    -webkit-animation: float 54s infinite linear;
+    -moz-animation: float 54s infinite linear;
+    -o-animation: float 54s infinite linear;
+    animation: float 54s infinite linear;
+    animation-delay: 50s;
+}
+
+.midday16 {
+  top: 235px;
+    left: -800px;
+    filter: opacity(20%);
+    position:absolute;
+    -webkit-animation: float 59s infinite linear;
+    -moz-animation: float 59s infinite linear;
+    -o-animation: float 59s infinite linear;
+    animation: float 59s infinite linear;
+      animation-delay: 55s;
+}
+
+.midday17 {
+  top: 380px;
+    left: -800px;
+      filter: opacity(60%);
+    position:absolute;
+    -webkit-animation: float 54s infinite linear;
+    -moz-animation: float 54s infinite linear;
+    -o-animation: float 54s infinite linear;
+    animation: float 54s infinite linear;
+      animation-delay: 65s;
+}
+
+.midday18 {
+  top: 185px;
+   left: -800px;
+   position:absolute;
+   filter: opacity(80%);
+   -webkit-animation: float 52s infinite linear;
+   -moz-animation: float  52s infinite linear;
+   -o-animation: float  52s infinite linear;
+   animation: float 52s infinite linear;
+   animation-delay: 46s;
+}
+
+
+.midday19 {
+  top: 150px;
+   left: -800px;
+   position:absolute;
+   filter: opacity(50%);
+   -webkit-animation: float 50s infinite linear;
+   -moz-animation: float  50s infinite linear;
+   -o-animation: float  50s infinite linear;
+   animation: float 50s infinite linear;
+   animation-delay: 50s;
+}
+
+.midday20 {
+  top: 80px;
+  left: -800px;
+  width: 200px;
+  height: 200px;
+  filter: opacity(60%);
+  position:absolute;
+  -webkit-animation: float 30s infinite linear;
+  -moz-animation: float 30s infinite linear;
+  -o-animation: float 30s infinite linear;
+  animation: float 30s infinite linear;
+  animation-delay: 70s;
+}
+
+.midday21 {
+  top: 185px;
+   left: -1200px;
+   position:absolute;
+   filter: opacity(80%);
+   -webkit-animation: float 52s infinite linear;
+   -moz-animation: float  52s infinite linear;
+   -o-animation: float  52s infinite linear;
+   animation: float 52s infinite linear;
+   animation-delay: 46s;
+}
+
+.midday22 {
+  top: 260px;
+    left: -800px;
+    position:absolute;
+     filter: opacity(60%);
+    -webkit-animation: float 39s infinite linear;
+    -moz-animation: float 39s infinite linear;
+    -o-animation: float 39s infinite linear;
+    animation: float 39s infinite linear;
+    animation-delay: 70s;
+}
+
+.midday23 {
+  top: 380px;
+    left: -800px;
+    position:absolute;
+    -webkit-animation: float 54s infinite linear;
+    -moz-animation: float 54s infinite linear;
+    -o-animation: float 54s infinite linear;
+    animation: float 54s infinite linear;
+    animation-delay: 65s;
+}
+
+.midday24 {
+  top: 350px;
+    left: -800px;
+    position:absolute;
+    filter: opacity(85%);
+    -webkit-animation: float 23s infinite linear;
+    -moz-animation: float 23s infinite linear;
+    -o-animation: float 23s infinite linear;
+    animation: float 23s infinite linear;
+    animation-delay: 100s;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  padding: 5;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #0F5AA6;
+}
+
+a:hover {
+  color: #030E49;
+}
+
+a:active {
+  color: #C9D9E8;
+}
+body {
+background-color: #B1D1F4;
+padding: 15px;
+}
+
+iframe {
+  position: absolute;
+bottom: 0;
+right: 0;
+filter: opacity(80%);
+border-radius: 10px;
+}
+
+.background {
+  width: 100%;
+height: 2000px;
+align-items: center;
+justify-content: center;
+background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.background::after {
+  content: "";
+  background: url("bckg.jpg");
+  opacity: 30%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-position: center;
+   background-repeat: repeat;
+   background-size: cover;
+}
+
+@media only screen and (max-width: 375px) {
+
+  body {
+    padding: 12px;
+  }
+}
