@@ -26,7 +26,7 @@ background-position: center;
 }
 .background::after {
   content: "";
-  background: url("bckg.jpg");
+  background: url("/bckg.jpg");
   opacity: 25%;
   top: 0;
   left: 0;
