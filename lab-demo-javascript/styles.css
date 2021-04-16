@@ -1,0 +1,21 @@
+body {
+  background-color: #C5F4E8;
+}
+
+.bubble {
+  cursor: pointer;
+  display: block;
+  background-color: transparent;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  border: 2px solid #636DF4;
+  background-color: #A7ACF4;
+  z-index: 2;
+  border-radius: 50%;
+}
+
+
+.bubble.hide {
+  display: none;
+}
