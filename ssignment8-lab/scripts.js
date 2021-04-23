@@ -40,16 +40,16 @@ base('my-table').select({}).eachPage(function page(tableItems, fetchNextPage) {
   setTable(allItems);
 });
 
-
+// the function below is calling ^ that on top to take all items, the brakets are open so everything inside is being  wrapped in that specific function
 function setTable(allItems) {
 
   let container = document.createElement("div");
   container.classList.add("container");
   document.body.appendChild(container);
-
+// above a div is being created via a class list, on line 48 its creating a function to add a contained in the body of the document
 
   allItems.forEach(function(item) {
-
+// the forEach syntax calls a function once for each element in an erray
     let name = item.fields.items;
     // store the image for the item into a variable
     let imageUrl = item.fields.images[0].url;
@@ -60,11 +60,12 @@ function setTable(allItems) {
   //  DiningTable.classList.add(item.fields.kind_of_item);
   // container.appendChild(DiningTable);
 
-    // the following code is for making multiple cups and plates etc out of just one Airtable record and then positioning them in specific spots on the table. these are the names I used in my airtable, yours will be different!!
     // here i want to do different things with different items
     // so if the item is a Cup, I want to add a class name of cup, and put each one in a different position on the page.
     // dont forget, some of the styling for my page here in JS and some is in my CSS file, for example I know that my .cup class has position: absolute set in CSS, which means that style.left and style.top will work here in the JS.
 
+
+// on line 70 it says how many of each item i want to display so its between 0-3, so three plates show up on the page
     if (name === "Plates") {
       for (var i=0; i<3; i++) {
         let Plates = document.createElement('img');
@@ -87,6 +88,7 @@ function setTable(allItems) {
         container.appendChild(Plates);
       }
     }
+// each plate has a different potioning so I, assuming it means item along with its name which is Plates in this case calls the style and the specfic style; almost the same way css is written
 
     if (name === "placemat") {
       for (var i=0; i<3; i++) {
@@ -141,6 +143,7 @@ if (i === 0) {
      }
    }
 
+// here the var numebrs chage because I only want it to show up once on the page
    if (name === "guestone") {
        for (var i=0; i<1; i++) {
          let guestone = document.createElement('img');
