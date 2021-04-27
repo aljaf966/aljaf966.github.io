@@ -1,0 +1,203 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+	<title>Sentence Generator</title>
+
+	<!--
+	***** START CSS *****
+	-->
+	<style>
+
+		/* You can change the colors, font, and so on below */
+
+		body {
+			margin: 75px;
+			font-size: 100px;
+			background-color: #EAC4E3;
+			font-family: 'Fredoka One', cursive;
+		}
+
+		.button-container {
+			position: fixed;
+			bottom: 75px;
+			right: 75px;
+		}
+
+		.list-one {
+			color: #6C3E92;
+		}
+
+		.list-two {
+			color: #3E6992;
+		}
+
+        .list-three {
+			color: #4B925E;
+		}
+		button {
+			box-shadow:inset 0px 0px 0px 0px #efdcfb;
+			background-color:#FFDBC6;
+			border-radius:37px;
+			border:1px solid #c584f3;
+			display:inline-block;
+			cursor:pointer;
+			color:#3D0646;
+			font-family:Arial;
+			font-size:20px;
+			font-weight:bold;
+			padding:12px 22px;
+			text-decoration:none;
+			text-shadow:0px 1px 0px #b829ff;
+		}
+		button:hover {
+			background-color:#C86FD9;
+		}
+.credit {
+	font-size: 12px;
+}
+
+
+	</style>
+	<!--
+	***** END CSS *****
+	-->
+
+
+	<!--
+	***** START JAVASCRIPT *****
+	-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			// list one content
+			var one = [
+				"milkshake",
+				"shoes",
+				"hair",
+				"charm",
+				"laugh",
+				"a$$",
+				"eyes",
+				"smile",
+				"cash",
+				"car",
+				"cooking skills",
+				"credit card",
+				"puppy",
+				"big braind",
+				"photos",
+				"pradas"
+			];
+
+			// list two content
+			var two = [
+				"boys",
+				"frat boys",
+				"finance bros",
+				"NYU Stern boys",
+				"law school men",
+				"ivy league frat boys",
+				"skater boys",
+				"fordham boys",
+				"golf boys",
+				"pretentious douchebags",
+				"tinder dates",
+				"trust fund boys",
+				"douchebags",
+				"silver-spoon fed boys",
+				"no social-media boys",
+			];
+
+            // list three content
+			var three = [
+				"yard",
+				"park",
+				"race track",
+				"bed",
+        "concert",
+				"vaccine center",
+				"roof",
+				"chrome hearts store",
+        " farmers market",
+				"library",
+				"courthouse",
+        "private jet",
+				"classroom",
+				"streets",
+				"dry-cleaners"
+			];
+
+
+			// This is a very common randomizing function.
+			// It takes a list (array) and returns one at random.
+			function select_random(x){
+				y = x[Math.floor(Math.random()*x.length)];
+				return y;
+			}
+
+			function generate(){
+
+				// Select a random item from each list
+				var selected_one = select_random(one);
+				var selected_two = select_random(two);
+                var selected_three = select_random(three);
+
+				// Take the selected (random) item from list and make it visible
+				$('.list-one').html(selected_one);
+				$('.list-two').html(selected_two);
+                $('.list-three').html(selected_three);
+
+			}
+
+			$('button').click(function(){
+				generate();
+			});
+
+			generate();
+
+		});
+
+	</script>
+	<!--
+	***** END JAVASCRIPT *****
+	-->
+
+</head>
+
+<body>
+
+	<!--
+	This is the button.
+	-->
+	<div class="button-container">
+		<button> shake! </button>
+	</div>
+
+	<!--
+	This is the visible portion.
+
+	If you want your words or phrases to go side-by-side, use...
+
+	<span></span>
+
+    if you want your words or phrases to stack vertically, use...
+
+    <div></div>
+
+	in the code below.
+	-->
+	My <span class="list-one"></span> brings all the <span class="list-two"></span> to the <span class="list-three"></span>.
+
+<p class="credit"> ✧･ﾟ: *✧･ﾟ:* inspired by Kelis classic song <a href="https://www.youtube.com/watch?v=pGL2rytTraA"> milkshake</a>  *:･ﾟ✧*:･ﾟ✧  </P>
+</body>
+
+</html>
