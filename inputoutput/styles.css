@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'CovikSansDemo-Regular';
+    src: url('CovikSansDemo-Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+
+html {
+  background: url(whitebckg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.title {
+  position: absolute;
+  width: 39%;
+left: 473.3px;
+top: 385px;
+transform: rotate(1.8deg);
+}
+
+.sticky {
+  display: none;
+}
+
+img {
+  max-width: 50%;
+}
+p {
+
+font-family: "CovikSansDemo-Regular";
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 31px;
+position: absolute;
+bottom: 0;
+  text-align: center;
+  left: 650px;
+color: #272727;
+}

@@ -14,7 +14,6 @@ bubbles.forEach(function(bubble) {
     bubble.style.top=randomVertical + "px";
     bubble.style.left= randomHorizontal + "px";
 })
-
 }
 
 document.addEventListener('keydown', addBubble);
