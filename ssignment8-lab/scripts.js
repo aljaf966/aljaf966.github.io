@@ -39,7 +39,6 @@ base('my-table').select({}).eachPage(function page(tableItems, fetchNextPage) {
   // now, call a new function to do stuff with your data and pass the allItems array into it
   setTable(allItems);
 });
-
 // the function below is calling ^ that on top to take all items, the brakets are open so everything inside is being  wrapped in that specific function
 function setTable(allItems) {
 
@@ -53,17 +52,26 @@ function setTable(allItems) {
     let name = item.fields.items;
     // store the image for the item into a variable
     let imageUrl = item.fields.images[0].url;
+    let itemImage = document.createElement('img');
+    itemImage.src = imageUrl;
+    itemImage.classList.add(item.fields.class_name);
+    container.appendChild(itemImage);
+    if (item.fields.kind_of_item === "guest") {
+    allGuests.push(item);
 
 
-  //let Diningable = document.createElement('img');
-  //  DiningTable.src = imageUrl;
-  //  DiningTable.classList.add(item.fields.kind_of_item);
-  // container.appendChild(DiningTable);
+    let showGuestButton = document.getElementById("bring-guest");
+    showGuestButton.addEventListener('click', showGuest);
 
-    // here i want to do different things with different items
-    // so if the item is a Cup, I want to add a class name of cup, and put each one in a different position on the page.
-    // dont forget, some of the styling for my page here in JS and some is in my CSS file, for example I know that my .cup class has position: absolute set in CSS, which means that style.left and style.top will work here in the JS.
-
+     function showGuest() {
+     allGuest.forEach(function(guestItem) {
+     let guest = document.createElement('img');
+     guest.src = guestItem.fields.images[0].url;
+     guest.classList.add(guestItem.fields.class_name);
+    guest.style.display = "block";
+    container.appendChild(guest);
+         })
+         }
 
 // on line 70 it says how many of each item i want to display so its between 0-3, so three plates show up on the page
     if (name === "Plates") {
@@ -187,5 +195,9 @@ if (i === 0) {
               container.appendChild(table);
            }
          }
+
+
+
+   }
 })
 }

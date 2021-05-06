@@ -1,20 +1,14 @@
 console.log("hello")
 
 function placeSticky(){
-  //get all of the html elements ive written, thast i know are in my index html that have that class bubble
-  let allstickies = document.querySelectorAll(".sticky");
 
-  allstickies.forEach(function(sticky) {
-    console.log(sticky)
-    let randomHorizontal = Math.floor(Math.random() * window.innerWidth);
-      let randomVertical = Math.floor(Math.random() * window.innerHeight);
+ let allstickies = document.querySelectorAll(".sticky");
 
-
-      sticky.style.top=randomVertical + "px";
-      sticky.style.left= randomHorizontal + "px";
-
-  })
+ allstickies.forEach(function(sticky) {
+   console.log(sticky)
+ })
 }
+
 let imageArray=[
 "images/sticky1.png",
 "images/sticky2.png",
@@ -44,6 +38,13 @@ let stickyImage = document.createElement("img");
 stickyImage.src=imageArray[randomSticky]
   stickyAdder.appendChild(stickyImage);
   stickyAdder.style.display="block";
+
+  let randomHorizontal = Math.floor(Math.random() * window.innerWidth);
+        let randomVertical = Math.floor(Math.random() * window.innerHeight);
+
+        stickyAdder.style.top=randomVertical + "px";
+          stickyAdder.style.left= randomHorizontal + "px";
+
   document.body.appendChild(stickyAdder);
   placeSticky();
   } else {

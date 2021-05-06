@@ -6,8 +6,41 @@ html, body {
 
 h1 {
   font-family: 'Playfair Display', serif;
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
 }
 
 p {
   font-family: 'Playfair Display', serif;
+  font-size: 15px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px
+}
+
+.row:after {
+  display: table;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #329FEF;
+}
+
+a:visited {
+  color: #4B1C89;s
 }
