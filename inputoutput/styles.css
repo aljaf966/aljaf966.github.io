@@ -55,6 +55,13 @@ z-index: 10;
   color: #39312C;
 }
 
+
+.center {
+  position: absolute;
+  bottom: 0;
+  left: 36%;
+
+}
 .sticky {
   position: absolute;
     width: 500px;
