@@ -33,36 +33,52 @@ transform: rotate(1.8deg);
 z-index: 10;
 }
 
-.title2 {
-  position: absolute;
-  width: 10%;
-  left: 45%;
-  top: 99px;
-}
-
 .sticky1 {
   position: absolute;
   top: 20vh;
   left:50vw;
 }
+
+.aboutsection {
+  position: relative;
+  left: 7vw;
+  right: 7vh;
+  height: 600px;
+}
 .about {
   position: absolute;
   text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
   transform: translate(-50%, -50%);
   color: #39312C;
+  width: 600px;
+}
+
+.title2 {
+  position: absolute;
+  left: 40%;
+  top: 8%;
+  text-align: center;
+  width: 12%;
+}
+
+.home {
+  position: relative;
+left: 41vw;
+top: -14vh;
+width: 100px;
+
 }
 
 
-.center {
+.credit {
   position: absolute;
   bottom: 0;
   left: 42vw;
   font-size: 12px;
-
 }
+
+
+
 .sticky {
   position: absolute;
     width: 500px;
@@ -80,12 +96,6 @@ z-index: 10;
   padding-top: 3px;
 }
 
-.home {
-  position: absolute;
-  top: 62%;
-  left: 46%;
-  width:10%;
-}
 
 img {
   max-width: 50%;
