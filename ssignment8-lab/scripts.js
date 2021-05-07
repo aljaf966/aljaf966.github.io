@@ -47,32 +47,6 @@ function setTable(allItems) {
   document.body.appendChild(container);
 // above a div is being created via a class list, on line 48 its creating a function to add a contained in the body of the document
 
-  allItems.forEach(function(item) {
-// the forEach syntax calls a function once for each element in an erray
-    let name = item.fields.items;
-    // store the image for the item into a variable
-    let imageUrl = item.fields.images[0].url;
-    let itemImage = document.createElement('img');
-    itemImage.src = imageUrl;
-    itemImage.classList.add(item.fields.class_name);
-    container.appendChild(itemImage);
-    if (item.fields.kind_of_item === "guest") {
-    allGuests.push(item);
-
-
-    let showGuestButton = document.getElementById("bring-guest");
-    showGuestButton.addEventListener('click', showGuest);
-
-     function showGuest() {
-     allGuest.forEach(function(guestItem) {
-     let guest = document.createElement('img');
-     guest.src = guestItem.fields.images[0].url;
-     guest.classList.add(guestItem.fields.class_name);
-    guest.style.display = "block";
-    container.appendChild(guest);
-         })
-         }
-
 // on line 70 it says how many of each item i want to display so its between 0-3, so three plates show up on the page
     if (name === "Plates") {
       for (var i=0; i<3; i++) {
@@ -193,11 +167,35 @@ if (i === 0) {
               }
 
               container.appendChild(table);
+            }
+                 }
+
            }
-         }
+      
 
-
-
-   }
-})
-}
+   //       allItems.forEach(function(item) {
+   //         let name = item.fields.items;
+   //         let imageUrl = item.fields.images[0].url;
+   //         let itemImage = document.createElement('img');
+   //         itemImage.src = imageUrl;
+   //         itemImage.classList.add(item.fields.class_name);
+   //         container.appendChild(itemImage);
+   //         if (item.fields.kind_of_item === "guest") {
+   //         allGuests.push(item);
+   //
+   //
+   //         let showGuestButton = document.getElementById("bring-guest");
+   //         showGuestButton.addEventListener('click', showGuest);
+   //
+   //          function showGuest() {
+   //          allGuest.forEach(function(guestItem) {
+   //          let guest = document.createElement('img');
+   //          guest.src = guestItem.fields.images[0].url;
+   //          guest.classList.add(guestItem.fields.class_name);
+   //         guest.style.display = "block";
+   //         container.appendChild(guest);
+   //              }
+   //              }
+   //
+   //
+   // }

@@ -17,7 +17,7 @@ function changeOpacity() {
 }
 
 function continueStory1() {
-  document.getElementbyId("revealMore1").style.filter='blur(0px)';
+  document.getElementById("revealMore1").style.filter='blur(0px)';
 }
 
 function continueStory2() {
